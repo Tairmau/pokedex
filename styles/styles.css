@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../images/pokemonbg.jpg");
+    background-size: cover; /* Pour redimensionner l'image pour couvrir toute la section */
+    background-position: center; /* Centrer l'image */
+    min-height: 100vh;
+    margin: 0; /* Ajout d'une marge de 0 pour éviter l'espace autour du corps de la page */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.container .left{
+    background-color: red;
+    width: 300px;
+    height: 700px;
+    border: 8px solid black;
+}
+.container .right{
+    background-color: red;
+    width: 600px;
+    height: 700px;
+    border: 8px solid black;
+    overflow: scroll;
+
+}
+.nom{
+    display: flex;
+    background-color: white;
+    width: 200px;
+    height: 50px;
+    margin-left: 250px;
+    margin-top: -40px;
+    border-radius: 5px;
+    border: 3px solid black;
+    margin-bottom: 100px;
+
+}
+.nom a{
+    color: black;
+    margin-left:50px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 900;
+    text-decoration: none;
+    background-color: azure;
+}
+.id{
+    margin-top: 70px;
+    position: relative;
+    margin-left: 150px;
+}
+.id p{
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+}
+.liste h1{
+    text-align: center;
+    margin-top: 40px;
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+}
+.backimg {
+    width: 200px;
+    height: 200px;
+    background-color: #048FCA;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    border-radius: 7px;
+}
+.description{
+    margin-top: 150px;
+    width: 250px;
+    height: 200px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 7px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.type{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.type1{
+    width: 70px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;padding-top: 7px;
+}
+.type2{
+    width: 70px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;padding-top: 7px;
+}
+.backimg img{
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
